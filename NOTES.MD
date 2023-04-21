@@ -8,3 +8,13 @@ What is a Command?
  Commands are always named with a verb in the imperative mood.
 
  For Example: NewPostCommand, ListPostCommand, AddCommentCommand
+
+ WHat is an Event?
+
+ Events are objects that describe something that has occured in the application.
+ A typical source of events is the aggregate.
+
+ When something important happens in the aggregate, it will raise an event.
+
+ Events are name with a past-particle verb.
+ For example: PostCreatedEvent, PostLikedEvent, CommentAddedEvent
